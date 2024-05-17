@@ -1,11 +1,10 @@
 import React from "react";
-import NavBar from "../components/topNav";
-
+import Layout1 from "../layout/layout";
 
 const Welcome = () => {
     return (
-        <NavBar title="RGpt" aboutText="About" />
+        <Layout1 />
     )
-}
+};
 
 export default Welcome;
