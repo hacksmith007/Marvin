@@ -1,11 +1,12 @@
 import './App.css';
-import Welcome from './pages/Welcome';
+import { BrowserRouter as Router } from 'react-router-dom';
+import LayoutSliderBottom from './layout/layoutBottomSlider';
 
 function App() {
   return (
-    <div className="App">
-      <Welcome />
-    </div>
+    <Router>
+        <LayoutSliderBottom/>
+    </Router>
   );
 }
 
